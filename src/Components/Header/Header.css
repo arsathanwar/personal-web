@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
 .header{
     display: flex;
     align-items: center;
@@ -16,7 +18,8 @@
  
  .header__left > h1{
     text-align: center;
-    font-family: "Montserrat","sans-serif";
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
     letter-spacing: 1px;
     padding: 20px 0px;
  }
@@ -35,6 +38,7 @@
  }
 
  .header__right > a > h3{
+   font-family: "Nunito", sans-serif;
     font-size: 18px;
     cursor: pointer;
     transition: transform 200ms ease-in-out;
@@ -47,13 +51,14 @@
     padding: 5px 20px;
     border-radius: 2px;
     letter-spacing: 1px;
-    font-family: "Crimpson Text","serif";
+    font-family: "Assistant", sans-serif;
     font-size: 18px;
     cursor: pointer;
  }
  .header__button{
     background-color: #f50422;
-    font-family: "Raleway","sans-serif";
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
     color: white;
     padding: 5px 20px;
     border-radius: 1px;
