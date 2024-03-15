@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.topContent{
+    color: white;
+    position: relative;
+}
+
+.topContent__container{
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
+
+.topContent__container > p{
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 10px;
+    font-family: "Nunito",sans-serif;
+
+}
+
+.topContent__container > a > button{
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    margin-top: 5px;
+}
+
+.topContent__container > h1 {
+    font-size: 50px;
+    font-family: "montserrat",sans-serif;
+
+}
+
+.topContent__cvButton{
+    color: aliceblue;
+    border: 1px solid #f50422 !important;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.topContent__workButton{
+    color:aliceblue;
+    border: 1px solid #f50422 !important;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 10px 40px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.topContent__cvButton:hover{
+    color:white;
+    background-color: #f50422;
+    font-weight: 800;
+}
+
+.topContent__workButton:hover{
+    color:white;
+    background-color: #f50422;
+    font-weight: 800;
+}
